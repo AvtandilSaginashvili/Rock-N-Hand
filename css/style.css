@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box !important;
+}
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: black !important;
+    background: linear-gradient(117.33deg, #131313 -1.12%, #071926 102.56%) !important;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(../Inter.ttf);
+}
+
+@font-face {
+    font-family: RobotoM;
+    src: url(../RobotoM.ttf);
+}
+
+@font-face {
+    font-family: RobotoR;
+    src: url(../RobotoR.ttf);
+}
+
+
+/* NavBar */
+
+
+.rockon {
+    font-family: 'RobotoM' !important;
+    font-style: italic !important;
+    font-weight: 700 !important;
+    font-size: 34px !important;
+    text-decoration: none !important;
+    color: #FAFAFA !important;
+}
+
+.navi1 {
+    font-family: 'RobotoM' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    color: #FAFAFA !important;
+    text-decoration: none !important;
+}
+
+
+/* content */
+
+
+.h1-1 {
+    font-family: 'Inter' !important;
+    font-style: normal !important;
+    font-weight: 800 !important;
+    font-size: 90px !important;
+    color: #FAFAFA !important;
+}
+
+.p1 {
+    font-family: 'Inter' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 28px !important;
+    color: #FAFAFA !important;
+}
+
+.downloadbutt {
+    width: 185px !important;
+    height: 66px !important;
+    background-color: #B0EADF !important;
+    border: none !important;
+    border-radius: 49px !important;
+    color: #232323 !important;
+    font-family: 'RobotoR' !important;
+    font-style: normal !important;
+    font-weight: 800 !important;
+    font-size: 18px !important;
+    padding: 2px !important;
+    transition: all .5s !important;
+}
+
+.downloadbutt:hover {
+    background-color: #906B5B !important;
+    padding-left: 12px !important;
+    margin-left: 6px !important;
+}
+
+.textdiv {
+    margin-left: 100px !important;
+    margin-top: 150px !important;
+    padding-left: 60px !important;
+}
+
+.svghand path {
+    stroke: #B0EADF !important;
+    transition: all .5s !important;
+}
+
+.downloadbutt:hover .svghand path {
+    stroke: #232323 !important;
+}
